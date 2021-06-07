@@ -1,0 +1,356 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>MyPackage 1 &mdash; gradTutorial  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Tutorial for the MyPackage 1 package" href="tutorials/MyPackage1_tutorial.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> gradTutorial
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Installation.html">Installation</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Tutorials:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="tutorials/MyPackage1_tutorial.html">Tutorial for the MyPackage 1 package</a></li>
+</ul>
+<p class="caption"><span class="caption-text">API documentation:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">MyPackage 1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#module-MyPackage1.MyModule1">MyModule 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-MyPackage1.MyModule2">MyModule 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#function-from-numpy">Function from numpy</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">gradTutorial</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>MyPackage 1</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/API.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast.container,
+.nboutput.nblast.container {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast.container + .nbinput.container {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<div class="section" id="mypackage-1">
+<h1>MyPackage 1<a class="headerlink" href="#mypackage-1" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-MyPackage1.MyModule1">
+<span id="mymodule-1"></span><h2>MyModule 1<a class="headerlink" href="#module-MyPackage1.MyModule1" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="MyPackage1.MyModule1.dog">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">MyPackage1.MyModule1.</span></code><code class="sig-name descname"><span class="pre">dog</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">breed</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#MyPackage1.MyModule1.dog" title="Permalink to this definition">¶</a></dt>
+<dd><p>Class that contains a dog object</p>
+<p>This class represent a dog object.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Variables</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>name</strong> – The name of the dog</p></li>
+<li><p><strong>breed</strong> – The type of dog</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt id="MyPackage1.MyModule1.dog.call">
+<code class="sig-name descname"><span class="pre">call</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#MyPackage1.MyModule1.dog.call" title="Permalink to this definition">¶</a></dt>
+<dd><p>class method that calls a dog.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt id="MyPackage1.MyModule1.read_dogs">
+<code class="sig-prename descclassname"><span class="pre">MyPackage1.MyModule1.</span></code><code class="sig-name descname"><span class="pre">read_dogs</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#MyPackage1.MyModule1.read_dogs" title="Permalink to this definition">¶</a></dt>
+<dd><p>function that reads in a list of dogs.</p>
+<p>The list of docs must be formatted into two columns,
+with the names of the dogs in the first column,
+and the breed of the dogs in the second column.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>file</strong> – the file containing the dog information</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>returns a list of <a class="reference internal" href="#MyPackage1.MyModule1.dog" title="MyPackage1.MyModule1.dog"><code class="xref py py-class docutils literal notranslate"><span class="pre">dog</span></code></a>.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="module-MyPackage1.MyModule2">
+<span id="mymodule-2"></span><h2>MyModule 2<a class="headerlink" href="#module-MyPackage1.MyModule2" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="function-from-numpy">
+<h2>Function from numpy<a class="headerlink" href="#function-from-numpy" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt id="numpy.arange">
+<code class="sig-prename descclassname"><span class="pre">numpy.</span></code><code class="sig-name descname"><span class="pre">arange</span></code><span class="sig-paren">(</span><span class="optional">[</span><em class="sig-param"><span class="pre">start</span></em>, <span class="optional">]</span><em class="sig-param"><span class="pre">stop</span></em>, <span class="optional">[</span><em class="sig-param"><span class="pre">step</span></em>, <span class="optional">]</span><em class="sig-param"><span class="pre">dtype=None</span></em>, <em class="sig-param"><span class="pre">*</span></em>, <em class="sig-param"><span class="pre">like=None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#numpy.arange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return evenly spaced values within a given interval.</p>
+<p>Values are generated within the half-open interval <code class="docutils literal notranslate"><span class="pre">[start,</span> <span class="pre">stop)</span></code>
+(in other words, the interval including <cite>start</cite> but excluding <cite>stop</cite>).
+For integer arguments the function is equivalent to the Python built-in
+<cite>range</cite> function, but returns an ndarray rather than a list.</p>
+<p>When using a non-integer step, such as 0.1, the results will often not
+be consistent.  It is better to use <cite>numpy.linspace</cite> for these cases.</p>
+<dl>
+<dt>start<span class="classifier">integer or real, optional</span></dt><dd><p>Start of interval.  The interval includes this value.  The default
+start value is 0.</p>
+</dd>
+<dt>stop<span class="classifier">integer or real</span></dt><dd><p>End of interval.  The interval does not include this value, except
+in some cases where <cite>step</cite> is not an integer and floating point
+round-off affects the length of <cite>out</cite>.</p>
+</dd>
+<dt>step<span class="classifier">integer or real, optional</span></dt><dd><p>Spacing between values.  For any output <cite>out</cite>, this is the distance
+between two adjacent values, <code class="docutils literal notranslate"><span class="pre">out[i+1]</span> <span class="pre">-</span> <span class="pre">out[i]</span></code>.  The default
+step size is 1.  If <cite>step</cite> is specified as a position argument,
+<cite>start</cite> must also be given.</p>
+</dd>
+<dt>dtype<span class="classifier">dtype</span></dt><dd><p>The type of the output array.  If <cite>dtype</cite> is not given, infer the data
+type from the other input arguments.</p>
+</dd>
+<dt>like<span class="classifier">array_like</span></dt><dd><p>Reference object to allow the creation of arrays which are not
+NumPy arrays. If an array-like passed in as <code class="docutils literal notranslate"><span class="pre">like</span></code> supports
+the <code class="docutils literal notranslate"><span class="pre">__array_function__</span></code> protocol, the result will be defined
+by it. In this case, it ensures the creation of an array object
+compatible with that passed in via this argument.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">like</span></code> keyword is an experimental feature pending on
+acceptance of <span class="xref std std-ref">NEP 35</span>.</p>
+</div>
+<div class="versionadded">
+<p><span class="versionmodified added">New in version 1.20.0.</span></p>
+</div>
+</dd>
+</dl>
+<dl>
+<dt>arange<span class="classifier">ndarray</span></dt><dd><p>Array of evenly spaced values.</p>
+<p>For floating point arguments, the length of the result is
+<code class="docutils literal notranslate"><span class="pre">ceil((stop</span> <span class="pre">-</span> <span class="pre">start)/step)</span></code>.  Because of floating point overflow,
+this rule may result in the last element of <cite>out</cite> being greater
+than <cite>stop</cite>.</p>
+</dd>
+</dl>
+<p>numpy.linspace : Evenly spaced numbers with careful handling of endpoints.
+numpy.ogrid: Arrays of evenly spaced numbers in N-dimensions.
+numpy.mgrid: Grid-shaped arrays of evenly spaced numbers in N-dimensions.</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+<span class="go">array([0, 1, 2])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mf">3.0</span><span class="p">)</span>
+<span class="go">array([ 0.,  1.,  2.])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">7</span><span class="p">)</span>
+<span class="go">array([3, 4, 5, 6])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
+<span class="go">array([3, 5])</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="tutorials/MyPackage1_tutorial.html" class="btn btn-neutral float-left" title="Tutorial for the MyPackage 1 package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, V. Petit.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

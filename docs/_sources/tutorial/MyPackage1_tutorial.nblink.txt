@@ -1,0 +1,3 @@
+{
+    "path": "../../../tutorials/MyPackage1_tutorial.ipynb"
+}
