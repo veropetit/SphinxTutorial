@@ -12,3 +12,9 @@ MyModule 2
 
 .. automodule:: MyPackage1.MyModule2
     :members:
+
+Function from numpy
+####################
+
+.. autofunction:: numpy.arange
+
