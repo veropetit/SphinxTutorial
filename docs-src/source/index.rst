@@ -6,9 +6,27 @@
 Welcome to gradTutorial's documentation!
 ========================================
 
+Let's add here a welcoming message, stating the purpose of the documentation.
+
+We can even add math: :math:`E = mc^2`
+
 .. toctree::
-   :maxdepth: 2
+   Installation
+   :maxdepth: 1
    :caption: Contents:
+
+.. toctree::
+   tutorials/MyPackage1_tutorial
+   :maxdepth: 1
+   :caption: Tutorials:
+
+
+.. toctree::
+   API
+   :maxdepth: 1
+   :caption: API documentation:
+
+
 
 
 
